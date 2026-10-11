@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Quiz！Diabetesは、見える手札で読み合い、○×クイズに挑戦するdecoのカードゲーム。カードの種類と7つの遊び方を、図と一緒に紹介します。">
+    <title>Quiz！Diabetes — 遊び方とルール | deco</title>
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/components.css">
+    <link rel="stylesheet" href="./assets/css/game.css">
+    <script src="./assets/js/main.js" defer></script>
+  </head>
+  <body class="game-page">
+    <a class="skip-link" href="#main-content">本文へスキップ</a>
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="site-logo" href="./index.html" aria-label="deco ホーム">deco.</a>
+        <button class="menu-toggle" type="button" aria-controls="primary-nav" aria-expanded="false">メニュー</button>
+        <nav class="primary-nav" id="primary-nav" aria-label="メインナビゲーション">
+          <ul class="nav-list">
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./game.html" aria-current="page">GAME</a></li>
+            <li><a href="./about.html">ABOUT</a></li>
+            <li><a href="./journal.html">JOURNAL</a></li>
+            <li><a href="./contact.html">CONTACT</a></li>
+            <li class="nav-list__shop"><a href="./shop.html">SHOP</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="game-hero" aria-labelledby="page-title">
+        <div class="game-hero__art" aria-hidden="true">
+          <span class="game-hero__oval game-hero__oval--blue"></span>
+          <span class="game-hero__oval game-hero__oval--yellow"></span>
+          <span class="game-hero__oval game-hero__oval--small-blue"></span>
+          <span class="game-hero__oval game-hero__oval--small-yellow"></span>
+          <span class="game-hero__oval game-hero__oval--left"></span>
+        </div>
+        <div class="container game-hero__content">
+          <p class="eyebrow">GAME / HOW TO PLAY</p>
+          <h1 id="page-title">Quiz！Diabetes</h1>
+          <p class="game-hero__catch">手札は見える。次の一手は、読めない。</p>
+          <p class="game-hero__lead">カードを出して、クイズに挑戦。知識と読み合いで勝利を目指そう。<br class="game-desktop-break">ダイアベティス〈糖尿病〉について、遊びながら理解を深めるカードゲーム。</p>
+          <div class="game-hero__meta">
+            <dl class="game-specs" aria-label="プレイ条件">
+              <div><dt>人数</dt><dd>3〜6<span>人</span></dd></div>
+              <div><dt>時間</dt><dd>15〜25<span>分</span></dd></div>
+              <div><dt>対象年齢</dt><dd>15<span>歳〜</span></dd></div>
+            </dl>
+            <div class="game-hero__links">
+              <a class="link-action" href="#how-to-play">遊び方を見る <span aria-hidden="true">↓</span></a>
+              <a class="game-text-link" href="#cards">カードの種類を見る <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="game-world">
+        <div class="game-world__art" aria-hidden="true">
+          <span class="game-world__oval game-world__oval--one"></span>
+          <span class="game-world__oval game-world__oval--two"></span>
+          <span class="game-world__oval game-world__oval--three"></span>
+          <span class="game-world__oval game-world__oval--four"></span>
+          <span class="game-world__oval game-world__oval--five"></span>
+          <span class="game-world__oval game-world__oval--six"></span>
+          <span class="game-world__oval game-world__oval--seven"></span>
+          <span class="game-world__oval game-world__oval--eight"></span>
+        </div>
+
+        <section class="game-cards game-block" id="cards" aria-labelledby="cards-title">
+          <div class="container">
+            <div class="game-section-heading">
+              <p class="eyebrow">THE CARDS</p>
+              <h2 id="cards-title">5つの色が、ゲームを動かす。</h2>
+              <p>4つのエレメントカードと、紫のスティグマカード。<br>クイズとチャレンジをきっかけに、知識も、見方も広げていこう。</p>
+            </div>
+            <div class="glass-panel game-card-guide">
+              <figure class="game-card-guide__figure">
+                <div class="game-card-guide__visual">
+                  <img src="./assets/images/game/rules/00-card-types-v1.png" width="1536" height="1024" alt="赤のBODY、青のSCIENCE、黄色のMIND、緑のSOCIAL、紫のSTIGMA。5種類の説明用カード。" decoding="async">
+                </div>
+                <figcaption>説明用の図</figcaption>
+              </figure>
+              <ul class="game-card-legend" aria-label="カードの種類と枚数">
+                <li class="game-card-legend__body"><span class="game-card-legend__name">BODY</span><span>赤 · 30枚</span></li>
+                <li class="game-card-legend__science"><span class="game-card-legend__name">SCIENCE</span><span>青 · 30枚</span></li>
+                <li class="game-card-legend__mind"><span class="game-card-legend__name">MIND</span><span>黄 · 10枚</span></li>
+                <li class="game-card-legend__social"><span class="game-card-legend__name">SOCIAL</span><span>緑 · 10枚</span></li>
+                <li class="game-card-legend__stigma"><span class="game-card-legend__name">STIGMA</span><span>紫 · 8枚</span></li>
+              </ul>
+              <p class="game-card-guide__note">エレメントカードは合計80枚。難易度0〜9の数字と○×クイズが入っています。スティグマカードは、偏見・誤解・差別について考えるチャレンジカードです。</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="game-rules game-block" id="how-to-play" aria-labelledby="how-to-play-title">
+          <div class="container">
+            <div class="game-section-heading game-section-heading--rules">
+              <div>
+                <p class="eyebrow">HOW TO PLAY</p>
+                <h2 id="how-to-play-title"><span class="game-heading-chunk">さあ、7つのステップで</span><span class="game-heading-chunk">遊ぼう。</span></h2>
+                <p>手札をオープンにして、読み合いを楽しもう。<br>わからない言葉は、その場でみんなに聞いてOK。</p>
+              </div>
+              <a class="game-text-link" href="#rule-notes">迷ったときの補足ルール <span aria-hidden="true">↓</span></a>
+            </div>
+
+            <div class="game-rule-grid">
+              <article class="glass-panel rule-card rule-card--setup" id="step-01" aria-labelledby="step-01-title">
+                <div class="rule-card__step"><span>01</span><p>SET UP</p></div>
+                <h3 id="step-01-title">まずは、手札をオープンに。</h3>
+                <p>カードをよく混ぜ、全員に同じ枚数を配ろう。<strong>5枚を表向きに並べ</strong>、残りは自分専用の山札として、手札の横に裏向きで置こう。</p>
+                <figure class="rule-figure rule-figure--setup">
+                  <div class="rule-figure__crop"><img src="./assets/images/game/rules/01-setup-v1.png" width="1536" height="1024" alt="赤3、青6、黄1、緑4、赤8の5枚が表向きに並び、その右側に裏向きの自分専用の山札が置かれている。" loading="lazy" decoding="async"></div>
+                  <figcaption><span>表向きの手札5枚</span><span>自分の山札</span></figcaption>
+                </figure>
+                <p class="rule-card__tip">相手の手札も見えるから、次の一手を読み合える。</p>
+              </article>
+
+              <article class="glass-panel rule-card rule-card--turn" id="step-02" aria-labelledby="step-02-title">
+                <div class="rule-card__step"><span>02</span><p>START</p></div>
+                <h3 id="step-02-title">じゃんけんでスタート。</h3>
+                <p>じゃんけんで最初のプレイヤーを決めよう。そこからは<strong>時計回り</strong>に、自分の番がやってくる。</p>
+                <figure class="rule-figure rule-figure--turn">
+                  <img src="./assets/images/game/rules/02-turn-order-v1.png" width="1254" height="1254" alt="上の青いプレイヤーから右下、左下へと、3人を時計回りの矢印でつないだ図。" loading="lazy" decoding="async">
+                  <figcaption>じゃんけんで決めて、時計回りに。</figcaption>
+                </figure>
+                <p class="rule-card__tip">最初の人は、好きなカードを1枚出してスタート。</p>
+              </article>
+
+              <article class="glass-panel rule-card rule-card--play" id="step-03" aria-labelledby="step-03-title">
+                <div class="rule-card__copy">
+                  <div class="rule-card__step"><span>03</span><p>PLAY A CARD</p></div>
+                  <h3 id="step-03-title">同じ色？ 同じ数字？</h3>
+                  <p>自分の番では、手札から<strong>1枚</strong>を場に出そう。前の人と<strong>同じ色か同じ数字</strong>のカード、または<strong>紫のスティグマカード</strong>なら出せる。</p>
+                  <ul class="rule-card__conditions">
+                    <li>同じ色</li><li>同じ数字</li><li>スティグマカード</li>
+                  </ul>
+                  <p>カードを出したら、自分の山札から1枚引こう。引いたカードも表向きにして、手札に並べる。</p>
+                  <p class="rule-card__tip">出せなければパス。山札がなくなったら補充せず、残った手札で続けよう。</p>
+                </div>
+                <figure class="rule-figure rule-figure--play">
+                  <img src="./assets/images/game/rules/03-playable-cards-v1.png" width="1672" height="941" alt="上は赤の3から赤の7で同じ色、下は赤の3から青の3で同じ数字。右には、色や数字に関係なく出せる紫のスティグマカード。" loading="lazy" decoding="async">
+                  <figcaption>上：同じ色 ／ 下：同じ数字 ／ 右：紫のカード</figcaption>
+                </figure>
+              </article>
+
+              <article class="glass-panel rule-card rule-card--quiz" id="step-04" aria-labelledby="step-04-title">
+                <div class="rule-card__step"><span>04</span><p>QUIZ TIME</p></div>
+                <h3 id="step-04-title">同じ色が続いたら、クイズ！</h3>
+                <p>同じ色のエレメントカードが続いたら、<strong>後に出した人</strong>が、自分の出したカードの○×クイズに挑戦。</p>
+                <figure class="rule-figure">
+                  <img src="./assets/images/game/rules/04-quiz-trigger-v1.png" width="1536" height="1024" alt="青の2の次に青の7が出され、後から出した青の7のカードに○×クイズの吹き出しが付いている。" loading="lazy" decoding="async">
+                  <figcaption>同じ色が連続 → 後に出したカードでクイズ</figcaption>
+                </figure>
+                <p class="rule-card__reading">クイズの中の「糖尿病」を「ダイアベティス」に置き換えて読み上げ、○か×かを答えよう。</p>
+                <dl class="rule-outcomes">
+                  <div><dt>正解</dt><dd>そのまま続行</dd></div>
+                  <div><dt>不正解</dt><dd>1ターン休み</dd></div>
+                </dl>
+              </article>
+
+              <article class="glass-panel rule-card rule-card--stigma" id="step-05" aria-labelledby="step-05-title">
+                <div class="rule-card__step"><span>05</span><p>CHALLENGE</p></div>
+                <h3 id="step-05-title">紫のカードで、思い込みに挑戦。</h3>
+                <p>スティグマカードを出すと、偏見や誤解についてのチャレンジが発生。<strong>正しい知識で、カードの内容を修正しよう。</strong></p>
+                <figure class="rule-figure">
+                  <img src="./assets/images/game/rules/05-stigma-challenge-v1.png" width="1536" height="1024" alt="紫のカードの問いを話し合って正しく直し、成功したら手札から追加で1枚を捨て札へ移す図。" loading="lazy" decoding="async">
+                  <figcaption>問いに挑戦 → 内容を修正 → 成功で追加の1枚</figcaption>
+                </figure>
+                <p class="rule-card__reading">考え方を言葉にして、みんなで学びを共有しよう。紫の次の人は、好きなカードを1枚出して続けよう。</p>
+                <dl class="rule-outcomes">
+                  <div><dt>成功</dt><dd>もう1枚捨てられる</dd></div>
+                  <div><dt>失敗</dt><dd>そのまま続行</dd></div>
+                </dl>
+              </article>
+
+              <article class="glass-panel rule-card rule-card--win" id="step-06" aria-labelledby="step-06-title">
+                <div class="rule-card__step"><span>06</span><p>FINISH</p></div>
+                <h3 id="step-06-title">手札をなくして、勝利を目指そう。</h3>
+                <p><strong>最初に手札がなくなった人が勝利！</strong> 制限時間が来たら、その時点で手札が最も少ない人が勝者になる。</p>
+                <figure class="rule-figure rule-figure--win">
+                  <img src="./assets/images/game/rules/06-winning-v1.png" width="1536" height="1024" alt="左は最後の手札1枚を出して0枚になる勝ち方。右は時間終了時に1枚、2枚、3枚の手札を比べ、最少の1枚の人が勝つ例。" loading="lazy" decoding="async">
+                  <figcaption>左：手札0枚 ／ 右：時間終了時に残り枚数が最少</figcaption>
+                </figure>
+                <p class="rule-card__tip">時間は遊ぶ前に決めよう。目安は15〜25分。</p>
+              </article>
+
+              <article class="glass-panel rule-card rule-card--reflect" id="step-07" aria-labelledby="step-07-title">
+                <div class="rule-card__step"><span>07</span><p>TALK TOGETHER</p></div>
+                <h3 id="step-07-title">遊んだあとも、話してみよう。</h3>
+                <p>カードを見返しながら、学んだことを振り返ろう。初めて知ったことや、遊んで考えたことを、<strong>みんなで言葉にしてみよう。</strong></p>
+                <figure class="rule-figure rule-figure--reflect">
+                  <img src="./assets/images/game/rules/07-reflection-v1.png" width="1254" height="1254" alt="3人がカードを囲み、新しい気づきや疑問を吹き出しで共有している。" loading="lazy" decoding="async">
+                  <figcaption>「初めて知った！」も、「自分はこう考えた」も。</figcaption>
+                </figure>
+                <p class="rule-card__tip">追加ルールカードがある場合は、好きなルールを選んでもう一度。</p>
+              </article>
+            </div>
+            <p class="game-illustration-note">図はルールを説明するためのイメージです。実際のカードデザインとは異なります。</p>
+          </div>
+        </section>
+
+        <section class="game-notes game-block" id="rule-notes" aria-labelledby="rule-notes-title">
+          <div class="container game-notes__layout">
+            <div class="game-section-heading">
+              <p class="eyebrow">RULE NOTES</p>
+              <h2 id="rule-notes-title">迷ったら、ここを確認。</h2>
+              <p>遊びをスムーズに進めるための補足ルール。<br>みんなで確認してから、スタートしよう。</p>
+            </div>
+            <div class="glass-panel game-faq">
+              <details>
+                <summary>出せるカードがないときは？</summary>
+                <div class="game-faq__answer"><p>その番はパス。手札をそのままにして、次の人へ進めよう。</p></div>
+              </details>
+              <details>
+                <summary>自分の山札がなくなったら？</summary>
+                <div class="game-faq__answer"><p>それ以降は補充しない。残っている手札だけで続け、0枚を目指そう。捨て札を混ぜて山札に戻すことはしません。</p></div>
+              </details>
+              <details>
+                <summary>最初のカードと、配った余りは？</summary>
+                <div class="game-faq__answer"><p>最初の人は好きなカードを1枚出してスタート。その次の人から、色・数字・スティグマカードの条件で出そう。</p><p>全員に同じ枚数を配り、余ったカードは今回は使わず、脇に置いておこう。</p></div>
+              </details>
+              <details>
+                <summary>スティグマカードの次は何を出せる？</summary>
+                <div class="game-faq__answer"><p>紫のカードには、次の人への色・数字の制限を付けません。次の人は好きなカードを1枚出し、そこから通常の色・数字の条件に戻ろう。</p></div>
+              </details>
+              <details>
+                <summary>全員がカードを出せなくなったら？</summary>
+                <div class="game-faq__answer"><p>全員が連続してパスしたら、その時点で終了。残り手札が最も少ない人を勝者にしよう。</p></div>
+              </details>
+              <details>
+                <summary>最少の手札が同じ枚数だったら？</summary>
+                <div class="game-faq__answer"><p>同じ枚数の人は、みんな同点勝利。時間終了や、全員が連続してパスした場合に使うルールです。</p></div>
+              </details>
+            </div>
+          </div>
+        </section>
+
+        <section class="game-manual game-block" aria-labelledby="manual-title">
+          <div class="container">
+            <div class="glass-panel game-manual__panel">
+              <div>
+                <p class="eyebrow">PLAY GUIDE</p>
+                <h2 id="manual-title">マニュアルを手元に。</h2>
+                <p>元の遊び方マニュアルを、PDFでも確認できます。</p>
+                <p class="game-manual__note">パス・山札切れ・同点などの補足は、このページの説明を確認してください。</p>
+              </div>
+              <a class="link-action link-action--secondary" href="./assets/docs/quiz-diabetes-manual.pdf" target="_blank" rel="noopener">マニュアルを開く <span>PDF</span><span class="game-sr-only">（新しいタブで開きます）</span><span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <section class="game-shop" aria-labelledby="game-shop-title">
+        <div class="container game-shop__inner">
+          <div><p class="eyebrow">LET’S PLAY</p><h2 id="game-shop-title">遊んでみたくなったら。</h2><p>商品・購入情報は、SHOPで紹介しています。</p></div>
+          <a class="link-action" href="./shop.html">SHOPを見る <span aria-hidden="true">→</span></a>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <a class="site-logo" href="./index.html">deco.</a>
+        <nav aria-label="フッターナビゲーション">
+          <ul class="footer-nav">
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./game.html">GAME</a></li>
+            <li><a href="./shop.html">SHOP</a></li>
+            <li><a href="./about.html">ABOUT</a></li>
+            <li><a href="./journal.html">JOURNAL</a></li>
+            <li><a href="./contact.html">CONTACT</a></li>
+          </ul>
+        </nav>
+        <small>© deco</small>
+      </div>
+    </footer>
+  </body>
+</html>

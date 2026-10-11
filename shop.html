@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="decoのカードゲームQuiz！Diabetesの購入ページ。価格・配送の仮情報とセット内容をご確認いただけます。現在は販売準備中です。">
+    <title>SHOP — Quiz！Diabetes | deco</title>
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/components.css">
+    <link rel="stylesheet" href="./assets/css/shop.css">
+    <script src="./assets/js/main.js" defer></script>
+    <script src="./assets/js/shop.js" defer></script>
+  </head>
+  <body class="shop-page">
+    <a class="skip-link" href="#main-content">本文へスキップ</a>
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="site-logo" href="./index.html" aria-label="deco ホーム">deco.</a>
+        <button class="menu-toggle" type="button" aria-controls="primary-nav" aria-expanded="false">メニュー</button>
+        <nav class="primary-nav" id="primary-nav" aria-label="メインナビゲーション">
+          <ul class="nav-list">
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./game.html">GAME</a></li>
+            <li><a href="./about.html">ABOUT</a></li>
+            <li><a href="./journal.html">JOURNAL</a></li>
+            <li><a href="./contact.html">CONTACT</a></li>
+            <li class="nav-list__shop"><a href="./shop.html" aria-current="page">SHOP</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="shop-product" id="product" aria-labelledby="page-title">
+        <div class="container shop-product__grid">
+          <figure class="shop-gallery" aria-label="商品デザインのイメージ" aria-roledescription="カルーセル">
+            <div class="shop-gallery__stage">
+              <div class="shop-gallery__art" aria-hidden="true">
+                <span class="shop-gallery__oval shop-gallery__oval--yellow"></span>
+                <span class="shop-gallery__oval shop-gallery__oval--blue"></span>
+              </div>
+              <div class="shop-gallery__track" id="shop-gallery-track">
+                <div class="shop-gallery__slide" role="group" aria-roledescription="スライド" aria-label="全体像（1 / 2）" aria-hidden="false" data-label="全体像">
+                  <img id="shop-product-image" src="./assets/images/game/product-overview-concept-v1.png" width="1536" height="1024" alt="青と黄色の楕円をあしらったdecoの箱と、カードの束・3枚のカードを並べた商品デザインのイメージ。" decoding="async" fetchpriority="high">
+                </div>
+                <div class="shop-gallery__slide" role="group" aria-roledescription="スライド" aria-label="カード単体（2 / 2）" aria-hidden="true" data-label="カード単体">
+                  <img src="./assets/images/game/single-card-concept-v1.png" width="1024" height="1536" alt="白いカードに青と黄色の楕円とdecoのロゴを配置した、カード1枚の商品デザインのイメージ。" decoding="async">
+                </div>
+              </div>
+              <button class="shop-gallery__arrow shop-gallery__arrow--previous" type="button" aria-label="前の商品画像を表示" aria-controls="shop-gallery-track" disabled>
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true" focusable="false"><path d="M12.5 4.5 7 10l5.5 5.5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+              <button class="shop-gallery__arrow shop-gallery__arrow--next" type="button" aria-label="次の商品画像を表示" aria-controls="shop-gallery-track">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true" focusable="false"><path d="m7.5 4.5 5.5 5.5-5.5 5.5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+              <div class="shop-gallery__dots" role="group" aria-label="表示する商品画像">
+                <button class="shop-gallery__dot" type="button" aria-label="1枚目：商品全体のイメージを表示" aria-pressed="true" aria-controls="shop-gallery-track"><span aria-hidden="true"></span></button>
+                <button class="shop-gallery__dot" type="button" aria-label="2枚目：カード単体のイメージを表示" aria-pressed="false" aria-controls="shop-gallery-track"><span aria-hidden="true"></span></button>
+              </div>
+            </div>
+            <figcaption id="shop-image-caption">商品デザインのイメージ</figcaption>
+            <p class="shop-gallery__announcement" aria-live="polite" aria-atomic="true">全体像、1枚目、全2枚。</p>
+          </figure>
+
+          <div class="shop-purchase">
+            <p class="eyebrow shop-purchase__kicker">SHOP</p>
+            <h1 id="page-title">Quiz！Diabetes</h1>
+            <p class="shop-purchase__description">ダイアベティス〈糖尿病〉をテーマにしたカードゲーム。</p>
+
+            <!-- ユーザー指定の仮価格。販売開始前に正式な税込価格を確認する。 -->
+            <p class="shop-price"><span class="shop-price__amount">¥1,000</span><span class="shop-price__note">税込・仮価格</span></p>
+
+            <!-- 送料と発送目安はレイアウト確認用の仮設定。正式な販売条件ではない。 -->
+            <dl class="shop-delivery">
+              <div><dt>送料</dt><dd>全国一律300円</dd></div>
+              <div><dt>発送目安</dt><dd>ご注文後3〜5営業日以内に発送</dd></div>
+            </dl>
+            <p class="shop-purchase__draft-note">※送料・発送目安は仮の設定です。</p>
+
+            <!-- 購入受付は未開始。販売先が決まるまでdisabledを外さない。 -->
+            <button class="shop-purchase__button" type="button" disabled aria-describedby="shop-sale-status">販売準備中</button>
+            <p class="shop-purchase__status" id="shop-sale-status">現在、購入受付は開始していません。</p>
+            <a class="shop-text-link" href="./game.html">ゲームの遊び方を見る <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="shop-information container" aria-label="購入に関する詳細">
+        <details class="shop-detail" id="details">
+          <summary>セット内容<span class="shop-detail__symbol" aria-hidden="true"></span></summary>
+          <div class="shop-detail__body">
+            <dl class="shop-contents">
+              <div><dt>エレメントカード</dt><dd>80枚</dd></div>
+              <div><dt>スティグマカード</dt><dd>8枚</dd></div>
+              <div><dt>遊び方マニュアル</dt><dd>付属</dd></div>
+            </dl>
+          </div>
+        </details>
+        <details class="shop-detail" id="shipping">
+          <summary>お支払い・配送<span class="shop-detail__symbol" aria-hidden="true"></span></summary>
+          <div class="shop-detail__body">
+            <p>お支払い方法は、販売開始時にご案内します。</p>
+            <p>送料は全国一律300円、ご注文後3〜5営業日以内に発送する予定です。</p>
+            <p class="shop-detail__note">※送料・発送目安はレイアウト確認用の仮情報です。正式な条件は販売開始時にご案内します。</p>
+          </div>
+        </details>
+        <details class="shop-detail" id="returns">
+          <summary>返品・交換<span class="shop-detail__symbol" aria-hidden="true"></span></summary>
+          <div class="shop-detail__body">
+            <p>返品・交換の条件は、販売開始時にご案内します。</p>
+            <p>商品に関するご質問は、<a href="./contact.html">CONTACTページ</a>からお問い合わせ先をご確認ください。</p>
+          </div>
+        </details>
+        <p class="shop-help">ご購入についてのご質問は <a href="./contact.html">お問い合わせ <span aria-hidden="true">→</span></a></p>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <a class="site-logo" href="./index.html">deco.</a>
+        <nav aria-label="フッターナビゲーション">
+          <ul class="footer-nav">
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./game.html">GAME</a></li>
+            <li><a href="./shop.html">SHOP</a></li>
+            <li><a href="./about.html">ABOUT</a></li>
+            <li><a href="./journal.html">JOURNAL</a></li>
+            <li><a href="./contact.html">CONTACT</a></li>
+          </ul>
+        </nav>
+        <small>© deco</small>
+      </div>
+    </footer>
+  </body>
+</html>

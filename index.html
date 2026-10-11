@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="decoのカードゲームと活動をご紹介。楽しみながら考え、対話するきっかけを届けます。">
+    <title>deco | 遊びながら、新しい見方に出会おう</title>
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/components.css">
+    <link rel="stylesheet" href="./assets/css/home.css">
+    <script src="./assets/js/main.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">本文へスキップ</a>
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="site-logo" href="./index.html" aria-label="deco ホーム">deco.</a>
+        <button class="menu-toggle" type="button" aria-controls="primary-nav" aria-expanded="false">メニュー</button>
+        <nav class="primary-nav" id="primary-nav" aria-label="メインナビゲーション">
+          <ul class="nav-list">
+            <li><a href="./index.html" aria-current="page">HOME</a></li>
+            <li><a href="./game.html">GAME</a></li>
+            <li><a href="./about.html">ABOUT</a></li>
+            <li><a href="./journal.html">JOURNAL</a></li>
+            <li><a href="./contact.html">CONTACT</a></li>
+            <li class="nav-list__shop"><a href="./shop.html">SHOP</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <!-- 01 HERO：購入・プレイを考えている人に楽しさを伝える -->
+      <section class="section hero home-hero" aria-labelledby="hero-title">
+        <div class="home-hero__art" aria-hidden="true">
+          <span class="home-hero__shape home-hero__shape--yellow"></span>
+          <span class="home-hero__shape home-hero__shape--blue"></span>
+          <span class="home-hero__shape home-hero__shape--small"></span>
+          <span class="home-hero__shape home-hero__shape--top-left"></span>
+          <span class="home-hero__shape home-hero__shape--top-accent"></span>
+          <span class="home-hero__shape home-hero__shape--right-accent"></span>
+          <span class="home-hero__shape home-hero__shape--bottom-accent"></span>
+        </div>
+        <div class="container home-hero__layout">
+          <div class="home-hero__copy">
+            <p class="eyebrow">deco CARD GAME</p>
+            <h1 id="hero-title"><span class="home-hero__title-part">え、そんな考え方も</span><span class="home-hero__title-part">アリ？</span></h1>
+            <p class="lead">いつもの会話に、ちょっと新しい発見を。<br>みんなで考えて、話して、楽しむカードゲーム。</p>
+            <div class="actions">
+              <a class="link-action" href="./game.html">ゲームについて知る →</a>
+              <a class="link-action link-action--secondary" href="./shop.html">購入情報を見る →</a>
+            </div>
+          </div>
+          <figure class="home-hero__visual">
+            <img src="./assets/images/game/product-overview-concept-v1.png" alt="青と黄色の楕円をあしらったdecoの箱とカードの商品デザインのイメージ" width="1536" height="1024" fetchpriority="high" decoding="async">
+            <!-- <figcaption>商品デザインのイメージ</figcaption> -->
+          </figure>
+        </div>
+      </section>
+
+      <!-- 02 GAME INTRODUCTION：文章と箱・カードの全体像 -->
+      <section class="section home-feature home-game-intro" id="game-intro" aria-labelledby="game-intro-title">
+        <div class="container home-feature__grid">
+          <div class="home-feature__copy">
+            <p class="eyebrow">WHAT'S THIS GAME?</p>
+            <h2 id="game-intro-title">話してみたら、<br>もっと面白い。</h2>
+            <p>decoは、ダイアベティス〈糖尿病〉をテーマにしたカードゲームを制作しています。クイズと読み合いを楽しみながら、いろいろな考え方に出会うきっかけを目指しています。</p>
+            <a class="home-feature__link" href="./game.html">ゲームの魅力をもっと見る <span aria-hidden="true">→</span></a>
+          </div>
+          <figure class="home-feature__visual home-feature__visual--overview">
+            <img src="./assets/images/game/product-overview-concept-v1.png"
+                 alt="青と黄色の楕円をあしらったdecoの箱とカードの仮デザイン"
+                 width="1536" height="1024" loading="lazy" decoding="async">
+            <figcaption>商品デザインのイメージ</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- 03 HOW TO PLAY：カードと、GAMEページに沿った遊び方のプレビュー。 -->
+      <section class="section home-feature home-how-to-play" id="how-to-play" aria-labelledby="how-to-play-title">
+        <div class="container home-feature__grid">
+          <div class="home-feature__copy">
+            <p class="eyebrow">HOW TO PLAY</p>
+            <h2 id="how-to-play-title">さあ、遊んでみよう。</h2>
+            <p>5枚の手札を表向きに並べたら、ゲームスタート。前のカードと同じ色か同じ数字のカードを出そう。</p>
+            <p>同じ色のエレメントカードが続いたら、○×クイズに挑戦。手札をなくして、勝利を目指そう。</p>
+            <a class="home-feature__link" href="./game.html#how-to-play">詳しい遊び方を見る <span aria-hidden="true">→</span></a>
+          </div>
+          <figure class="home-feature__visual home-feature__visual--card">
+            <img src="./assets/images/game/single-card-concept-v1.png"
+                 alt="白地に青と黄色の楕円を描いたdecoのカード1枚の仮デザイン"
+                 width="1024" height="1536" loading="lazy" decoding="async">
+            <figcaption>カードデザインのイメージ</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- 04 ABOUT LINK：HOME最下部のABOUT誘導画像リンク -->
+      <section class="section" id="discover-deco" aria-labelledby="discover-deco-title">
+        <div class="container">
+          <a class="about-link" href="./about.html" aria-labelledby="discover-deco-title">
+            <div class="about-link__copy">
+              <span class="eyebrow">DISCOVER DECO</span>
+              <h2 id="discover-deco-title"><span>このゲームが</span><span>生まれた理由。</span></h2>
+              <p>遊びの先にある、decoの想いを知る。</p>
+              <span class="about-link__cta">decoについて知る →</span>
+            </div>
+            <img class="about-link__photo" src="./assets/images/about/2.jpg" alt="inochi KANSAI Forum 2025の会場での集合写真" width="1567" height="1045" loading="lazy" decoding="async">
+          </a>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <a class="site-logo" href="./index.html">deco.</a>
+        <nav aria-label="フッターナビゲーション">
+          <ul class="footer-nav">
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./game.html">GAME</a></li>
+            <li><a href="./shop.html">SHOP</a></li>
+            <li><a href="./about.html">ABOUT</a></li>
+            <li><a href="./journal.html">JOURNAL</a></li>
+            <li><a href="./contact.html">CONTACT</a></li>
+          </ul>
+        </nav>
+        <small>© deco</small>
+      </div>
+    </footer>
+  </body>
+</html>
